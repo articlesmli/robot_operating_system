@@ -1,0 +1,40 @@
+[0.295s] Invoking command in '/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking': PYTHONPATH=/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/autonomous_docking build --build-base /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build install --record /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/install.log --install-scripts $base/lib/autonomous_docking --single-version-externally-managed install_data
+[0.405s] running egg_info
+[0.406s] creating build/autonomous_docking/autonomous_docking.egg-info
+[0.406s] writing build/autonomous_docking/autonomous_docking.egg-info/PKG-INFO
+[0.406s] writing dependency_links to build/autonomous_docking/autonomous_docking.egg-info/dependency_links.txt
+[0.406s] writing entry points to build/autonomous_docking/autonomous_docking.egg-info/entry_points.txt
+[0.406s] writing requirements to build/autonomous_docking/autonomous_docking.egg-info/requires.txt
+[0.406s] writing top-level names to build/autonomous_docking/autonomous_docking.egg-info/top_level.txt
+[0.406s] writing manifest file 'build/autonomous_docking/autonomous_docking.egg-info/SOURCES.txt'
+[0.407s] reading manifest file 'build/autonomous_docking/autonomous_docking.egg-info/SOURCES.txt'
+[0.407s] adding license file 'LICENSE'
+[0.407s] writing manifest file 'build/autonomous_docking/autonomous_docking.egg-info/SOURCES.txt'
+[0.408s] running build
+[0.408s] running build_py
+[0.408s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build
+[0.408s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib
+[0.408s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib/autonomous_docking
+[0.408s] copying autonomous_docking/__init__.py -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib/autonomous_docking
+[0.408s] copying autonomous_docking/docking_node.py -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib/autonomous_docking
+[0.409s] running install
+[0.409s] running install_lib
+[0.409s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking
+[0.409s] copying /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib/autonomous_docking/__init__.py -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking
+[0.409s] copying /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build/lib/autonomous_docking/docking_node.py -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking
+[0.409s] byte-compiling /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking/__init__.py to __init__.cpython-310.pyc
+[0.409s] byte-compiling /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking/docking_node.py to docking_node.cpython-310.pyc
+[0.409s] running install_data
+[0.409s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/ament_index
+[0.409s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/ament_index/resource_index
+[0.410s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/ament_index/resource_index/packages
+[0.410s] copying resource/autonomous_docking -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/ament_index/resource_index/packages
+[0.410s] copying package.xml -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/autonomous_docking
+[0.410s] creating /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/autonomous_docking/config
+[0.410s] copying config/ekf.yaml -> /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/share/autonomous_docking/config
+[0.410s] running install_egg_info
+[0.411s] Copying build/autonomous_docking/autonomous_docking.egg-info to /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages/autonomous_docking-0.0.0-py3.10.egg-info
+[0.411s] running install_scripts
+[0.422s] Installing docking_node script to /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/autonomous_docking
+[0.422s] writing list of installed files to '/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/install.log'
+[0.433s] Invoked command in '/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking' returned '0': PYTHONPATH=/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/install/autonomous_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/autonomous_docking build --build-base /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/build install --record /home/ivanovaml/subsea_robotics_workspace/src/autonomous_docking/build/autonomous_docking/install.log --install-scripts $base/lib/autonomous_docking --single-version-externally-managed install_data
