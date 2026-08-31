@@ -1,0 +1,7 @@
+[console_scripts]
+acoustic_telemetry = autonomous_docking.acoustic_telemetry_node:main
+behavior_tree_node = autonomous_docking.behavior_tree_node:main
+docking_node = autonomous_docking.docking_node:main
+dvl_fusion_node = autonomous_docking.dvl_fusion_node:main
+thruster_pid_node = autonomous_docking.thruster_pid_node:main
+
