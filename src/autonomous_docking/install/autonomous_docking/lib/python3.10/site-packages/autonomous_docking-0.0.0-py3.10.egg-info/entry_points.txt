@@ -1,3 +1,0 @@
-[console_scripts]
-docking_node = autonomous_docking.docking_node:main
-
